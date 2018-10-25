@@ -5,9 +5,9 @@ class DemandwareSplitter
   end
 
   def start_streamer
-    puts "hi"
+    puts 'hi'
     print "\r"
-    print "start"
+    print 'start'
     file = File.open(@file_name)
     stream_thru(file)
     file.close
